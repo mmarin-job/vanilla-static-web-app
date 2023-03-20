@@ -18,6 +18,9 @@
     <div class="d365-mkt-config" style="display:none" data-website-id="Z6FnQoghDSGIlqIpdCplOAsjPnnnJovicJijvBBR8ZY" data-hostname="fc613ee4f6224143803c946344afb7c0.svc.dynamics.com"></div>
     <script src="form-loader.js"></script>
     <script src="ws-tracking.js"></script>
+    <script>
+        MsCrmMkt.MsCrmFormLoader.on("afterFormRender", function(event) {alert('RENDER')})
+    </script>
     
 
 </body>
